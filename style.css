@@ -6,6 +6,11 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.bg-img{
+    background-image: url(./images/shapes/top-banner.png);
+    background-repeat: no-repeat;
+    /* background-size: 1000px; */
+}
 .container{
     width: 1200px;
     margin: 0px auto;
@@ -55,6 +60,83 @@ h1{
     width: 60%;
     margin-left: 100px;
 }
-.hero-parent{
+.flex{
     display: flex;
+}
+/* misson section */
+.misson{
+    margin-bottom: 70px;
+}
+.witdh-cng{
+    width: 30%;
+    padding: 20px;
+    border-radius: 9px;
+}
+.witdh-cng img{
+    width: 50%;
+}
+.ml{
+    margin-right: 30px;
+}
+.text-center{
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 50px;
+}
+.child-one{
+    background-color: rgb(250, 231, 208);
+}
+.child-tow{
+    background-color: #f77895;
+}
+.child-three{
+    background-color: rgb(181, 191, 245);
+}
+.h3{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.para-one{
+    /* text-align: justify; */
+    padding-bottom: 50px;
+}
+div .imgs {
+    width: 30%;
+    margin-right: 250px;
+}
+.imgs img{
+    width: 100%;
+}
+.container .text-developer{
+    width: 40%;
+}
+.snd-bg{
+    background-image: url(./images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin-bottom: 70px;
+    background-size: 50px;
+}
+.Global-developer{
+    margin-right: 250px;
+}
+.trd-bg{
+    background-image: url(./images/shapes/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 50px;
+    margin-bottom: 70px;
+}
+.foot{
+    background-color:#f77895;
+    text-align: center;
+    border-radius: 2px;
+}
+.foot h3{
+    padding: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.foot p{
+    padding-bottom: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
